@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MichTech Portfolio</title>
+    <link rel="stylesheet" href="/Portfolio website/portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                
+                <img src="/Portfolio website/images/MichTech Logo.png" class="logo">
+                
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Micheal</span></h1>
+            </div>
+        </div>
+    </div>
+
+<!-- About me -->
+
+    <div id="about" class="fade-in-section">
+        <div class="container">
+            <div class="row">
+                
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+
+                    <p>I’m a Web Developer and UI/UX Designer who builds responsive, 
+                        user-focused websites that blend beauty with performance. With expertise in HTML, CSS, JavaScript, React
+                         and design tools, I turn wireframes and ideas into seamless digital experiences.</p>
+                        <p>From concept to execution, I work with precision and creativity 
+                         to deliver inclusive, engaging solutions. </p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web development</span><br>Building and maintaining user-friendly websites across devices and deliver clean, intuitive experiences</li>
+                                <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2024-2025</span><br>Team leader for a School Market App Design Project</li>
+                                <li><span>2023-2024</span><br>Team leader for a school voring App Design project</li>
+                                <li><span>2022-2023</span><br>Designer for a personal to-do list design project </li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2025</span><br>Full-stack Web development training at Digital Dreams</li>
+                                <li><span>2024</span><br>Bsc from University of Nigeria Nsukka</li>
+                            </ul>
+                        </div>
+                </div>
+
+                <div class="about-col-1">
+                    <img src="/Portfolio website/images/abi1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- service -->
+
+    <div id="services" class="fade-in-section">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p> I specialize in creating stunning and <br> intuitive websites 
+                        that not only captivate users visually <br> but also deliver 
+                        effortless functionality across all devices.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p> I build intuitive UI/UX designs that transform user <br>needs into coherent, visually engaging digital experiences.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- -----------Portfolio----------- -->
+
+    <div id="portfolio" class="fade-in-section">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/Portfolio website/images/First Category.png" alt="">
+                    <div class="layer">
+                        <h3>Food Vendor</h3>
+                        <p>A food vendor app that simplifies ordering and connects 
+                            customers with tasty meals and trusted local kitchens.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="/Portfolio website/images/skip 3.png" alt="">
+                    <div class="layer">
+                        <h3>Health-Tab</h3>
+                        <p>A modern health app designed to help users monitor wellness, track progress, 
+                            and stay on top of personal health goals.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="/Portfolio website/images/menu 2.png" alt="">
+                    <div class="layer">
+                        <h3>Online Market</h3>
+                        <p>A smart market app that connects buyers and sellers, streamlining 
+                            transactions and showcasing a wide range of goods from trusted vendors.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- ----------contact----------- -->
+
+    <div id="contact" class="fade-in-section">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> miractueejike@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 09047867135</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="/Portfolio website/images/Ejike's Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h2>Copyright MichTech.</h2>
+    </footer>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+         
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+           
+
+
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0"
+        }
+        function closemenu(){
+            sidemenu.style.right= "-70%"
+        }
+    </script>
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzODj4upQ23-OwvnsfnFrKgd9pkkDA18mmU-X8kiztkWD6qpU5ojRBZWYgy2GngygA9/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+        
+            msg.innerHTML = ""
+        },5000)
+          form.reset()  
+        
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+<script>
+    const faders = document.querySelectorAll('.fade-in-section');
+
+const appearOptions = {
+  threshold: 0.1,
+  rootMargin: "0px 0px -50px 0px"
+};
+
+const appearOnScroll = new IntersectionObserver(function(entries) {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("is-visible"); // Show the element
+    } else {
+      entry.target.classList.remove("is-visible"); // Hide again when scrolled out
+    }
+  });
+}, appearOptions);
+
+faders.forEach(fader => {
+  appearOnScroll.observe(fader);
+});
+
+</script>
+
+
+    
+</body>
+</html>
