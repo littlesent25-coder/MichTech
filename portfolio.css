@@ -427,6 +427,10 @@ nav .fa-solid {
         margin:  25px; 
 
     }
+    nav ul li:hover {
+        background-color: white;
+        color: gray;
+    }
     nav ul .fa-solid{
         position: absolute;
         top: 25px;
