@@ -429,7 +429,7 @@ nav .fa-solid {
     }
     nav ul li:hover {
         background-color: white;
-        color: gray;
+        color: rgb(44, 101, 193);
     }
     nav ul .fa-solid{
         position: absolute;
